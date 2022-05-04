@@ -1,6 +1,6 @@
 import { FilteredList, CardContact, ButtonDelete } from "./ContactList.styled";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteContact } from "../../redux/store";
+import { deleteContact } from "../../redux/itemsSlice";
 import { ReactComponent as TrashIcon } from "../ContactList/trash.svg";
 
 const ContactList = () => {
